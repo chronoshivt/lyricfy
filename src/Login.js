@@ -2,7 +2,7 @@ import React from 'react';
 import { Container } from 'react-bootstrap'
 import './Dashboard.css'
 
-const AUTH_URL = "https://accounts.spotify.com/authorize?client_id=360163f3fb1946b2bdc3d63460ed2205&response_type=code&redirect_uri=https://lyricfy1.herokuapp.com&scope=streaming%20user-read-email%20user-read-private%20user-library-read%20user-library-modify%20user-read-playback-state%20user-modify-playback-state%20playlist-read-private"
+const AUTH_URL = "https://accounts.spotify.com/authorize?client_id=360163f3fb1946b2bdc3d63460ed2205&response_type=code&redirect_uri=https://lyricfy1.herokuapp.com/&scope=streaming%20user-read-email%20user-read-private%20user-library-read%20user-library-modify%20user-read-playback-state%20user-modify-playback-state%20playlist-read-private"
 
 export default function Login() {
     return (

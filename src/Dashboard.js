@@ -37,7 +37,7 @@ export default function Dashboard({ code }) {
           setTrackArtist(data.body.item.artists[0].name)
           console.log(trackName)
           console.log(trackArtist)
-          axios.get('http://localhost:3001/lyrics', { 
+          axios.get('https://lyricyfyapi.herokuapp.com/lyrics', { 
               params: { 
                   track: data.body.item.name,
                   artist: data.body.item.artists[0].name,
